@@ -20,6 +20,7 @@ The game contains an angel and a demon. Each player plays in turn.
 * Devil's blocked positions are marked with B
 * Empty squares are marked with +
 
+~~~
      1   2   3   4   5   6   7   8   9   10      
 1   +   B   B   B   +   +   +   +   +   +   1   
 2   +   +   +   +   +   +   +   +   +   +   2   
@@ -32,3 +33,4 @@ The game contains an angel and a demon. Each player plays in turn.
 9   +   +   +   +   +   +   +   +   +   +   9   
 10  +   +   +   +   +   +   +   +   +   +   10  
     1   2   3   4   5   6   7   8   9   10      
+~~~
