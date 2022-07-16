@@ -7,7 +7,7 @@ The game contains an angel and a demon. Each player plays in turn.
 * The angel has a constant power K, which describes the furthest square it can jump to. Firstly, the angel moves to an empty position, which resides in a distance smaller than K. More specifically, if an angel is on a position (x,y) it can move to a posistion (a,b) if and only if |a-x| <= K and |b-y| <= K.
 * After an angel move, the demon blocks a square of the chessboard. Blocked positions are not available for movement to the angel.
 * The angel can move to its destination regardless of whether the squares between the starting and final positions are blocked or not.
-* Angel's goal is to reach a square at the edge of the chessboard, whereas devil's goal is to block the angel in a square  which is not at the edge of the chessboard. Devil wins if it surrounds the angel with a square with a size of at least K blocked positions.
+* Angel's goal is to reach a position at the edge of the chessboard, whereas devil's goal is to block the angel in a square  which is not at the edge of the chessboard. Devil wins if it surrounds the angel with a square with a side of at least K blocked positions.
 
 ## Game Modes
 * In User vs. User mode, one player plays as the angel, and the other plays as the devil. In this mode, the users will be prompted to choose the X and Y coordinates to move their pieces.
